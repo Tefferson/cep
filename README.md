@@ -9,16 +9,16 @@ Retorna os dados da primeira requisição que devolver resultados.
 import 'package:cep/cep.dart';
 
 main() async {
-  var result = await Cep.consultarCep('90020004');
+  var resultado = await Cep.consultarCep('90020004');
   
-  print('UF ${result.uf}');
-  print('CEP ${result.cep}');
-  print('IBGE ${result.ibge}');
-  print('Bairro ${result.bairro}');
-  print('Cidade ${result.cidade}');
-  print('Estado ${result.estado}');
-  print('Logradouro ${result.logradouro}');
-  print('Complemento ${result.complemento}');
+  print('UF ${resultado.uf}');
+  print('CEP ${resultado.cep}');
+  print('IBGE ${resultado.ibge}');
+  print('Bairro ${resultado.bairro}');
+  print('Cidade ${resultado.cidade}');
+  print('Estado ${resultado.estado}');
+  print('Logradouro ${resultado.logradouro}');
+  print('Complemento ${resultado.complemento}');
 }
 ```
 
