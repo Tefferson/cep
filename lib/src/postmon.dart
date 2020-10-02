@@ -12,7 +12,7 @@ class Postmon {
 
     var decoded = json.decode(respostaHttp.body);
 
-    var resposta = new Model();
+    var resposta = Model();
 
     resposta.source = 'Postmon';
     resposta.cep = decoded['cep'];

@@ -1,10 +1,10 @@
 name: cep
-version: 1.0.0
-description: Uma biblioteca para consulta de CEP.
+version: 1.0.1
+description: Uma biblioteca para consulta de CEP. O conceito é requisitar os dados para várias APIs e devolver o primeiro resultado retornado.
 homepage: https://github.com/tefferson/cep
 documentation: https://github.com/tefferson/cep
 environment:
   sdk: ">=2.0.0 <3.0.0"
 dependencies:
-  http: ^0.12.0+1
   via_cep: ^1.0.6
+  http: ^0.12.0+1

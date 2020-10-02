@@ -5,13 +5,13 @@ import 'package:via_cep/via_cep.dart';
 
 class ViaCep {
   static Future<Model> consultarCep(String cep) async {
-    var viaCep = new via_cep();
+    var viaCep = via_cep();
 
     await viaCep.searchCEP(cep, 'json', '');
 
     if (viaCep.getResponse() != 200) return null;
 
-    var resposta = new Model();
+    var resposta = Model();
 
     resposta.source = 'ViaCEP';
     resposta.uf = viaCep.getUF();
