@@ -3,6 +3,16 @@
 Package que integra com mais de uma API de consulta CEP.
 Retorna os dados da primeira requisição que devolver resultados.
 
+## Instalação
+No arquivo **pubspec.yaml**, adicionar dentro de **dependencies**.
+
+```
+...
+dependencies:
+  cep: ^1.0.0
+...
+```
+
 ## Uso
 
 ```dart
