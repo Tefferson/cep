@@ -1,8 +1,8 @@
 name: cep
 version: 1.0.0
-description: teff
-homepage: https://example-pet-store.com/newtify
-documentation: https://example-pet-store.com/newtify/docs
+description: Uma biblioteca para consulta de CEP.
+homepage: https://github.com/tefferson/cep
+documentation: https://github.com/tefferson/cep
 environment:
   sdk: ">=2.0.0 <3.0.0"
 dependencies:
