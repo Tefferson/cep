@@ -1,3 +1,5 @@
+library cep;
+
 import 'dart:async';
 import 'package:cep/src/model.dart';
 import 'package:cep/src/postmon.dart';
