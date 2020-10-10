@@ -5,6 +5,8 @@ import 'package:cep/src/model.dart';
 import 'package:cep/src/postmon.dart';
 import 'package:cep/src/via_cep.dart';
 
+export 'package:cep/src/model.dart';
+
 class Cep {
   static Future<Model> consultarCep(String cep) async {
     var viaCep = ViaCep.consultarCep(cep);
