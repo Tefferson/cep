@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Atualizar pubspec.yaml (Tefferson Guterres).
+
 ## 1.0.3
 
 - Atualizar README.md e exportar a classe Model (Tefferson Guterres).
